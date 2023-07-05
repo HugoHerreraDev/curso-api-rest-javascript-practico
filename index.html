@@ -14,7 +14,6 @@
     <header id="header" class="header-container">
         <span class="header-arrow inactive">&lt;</span>
         <h1 class="header-title">Chivana</h1>
-        <h3>Buscador para chivos:</h3>
         <h1 class="header-title header-title--categoryView inactive">Acción</h1>
         <form id="searchForm" class="header-searchForm">
             <input type="text" placeholder="La Sirenita">
@@ -28,6 +27,9 @@
             <button class="trendingPreview-btn">Ver más</button>
         </div>
         <article class="trendingPreview-movieList">
+            <div class="movie-container movie-container--loading"></div>
+            <div class="movie-container movie-container--loading"></div>
+            <div class="movie-container movie-container--loading"></div>
             <!-- <div class="movie-container">
                 <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="la sirenita">
             </div> -->
@@ -37,22 +39,39 @@
     <section id="categoriesPreview" class="categoriesPreview-container">
         <h2 class="categoriesPreview-title">Categorías</h2>
         <article class="categoriesPreview-list">
+            <div class="category-container category-container--loading"></div>
+            <div class="category-container category-container--loading"></div>
+            <div class="category-container category-container--loading"></div>
             <!-- <div class="category-container">
                 <h3 id="id28" class="category-title">Romance</h3>
             </div> -->
         </article>
     </section>
 
+    <section id="liked" class="liked-container">
+        <div class="liked-header">
+            <h2 class="liked-title">Películas Favoritas</h2>
+        </div>
+        <article class="liked-movieList">
+            <div class="movie-container">
+                <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="la sirenita">
+            </div>
+            <div class="movie-container">
+                <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="la sirenita">
+            </div>
+            <div class="movie-container">
+                <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="la sirenita">
+            </div>
+        </article>
+    </section>
+
     <section id="genericList" class="genericList-container inactive">
-        <div class="movie-container">
+        <div class="movie-container movie-container--loading"></div>
+        <div class="movie-container movie-container--loading"></div>
+        <div class="movie-container movie-container--loading"></div>
+        <!-- <div class="movie-container">
             <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="Nombre de la película">
-        </div>
-        <div class="movie-container">
-            <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="Nombre de la película">
-        </div>
-        <div class="movie-container">
-            <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="Nombre de la película">
-        </div>
+        </div> -->
     </section>
 
     <section id="movieDetail" class="movieDetail-container inactive">
@@ -60,6 +79,9 @@
         <span class="movieDetail-score">7.6</span>
         <p class="movieDetail-description">Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.</p>
         <article class="categories-list">
+            <div class="category-container category-container--loading"></div>
+            <div class="category-container category-container--loading"></div>
+            <div class="category-container category-container--loading"></div>
             <!-- <div class="category-container">
                 <h3 id="id28" class="category-title">Romance</h3>
             </div> -->
@@ -67,15 +89,12 @@
         <article class="relatedMovies-container">
             <h2 class="relatedMovies-title">Películas similares</h2>
             <div class="relatedMovies-scrollContainer">
-                <div class="movie-container">
+                <div class="movie-container movie-container--loading"></div>
+                <div class="movie-container movie-container--loading"></div>
+                <div class="movie-container movie-container--loading"></div>
+                <!-- <div class="movie-container">
                     <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="Nombre de la película">
-                </div>
-                <div class="movie-container">
-                    <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="Nombre de la película">
-                </div>
-                <div class="movie-container">
-                    <img src="https://i.ibb.co/GTZK1Dx/2449709.jpg" class="movie-img" alt="Nombre de la película">
-                </div>
+                </div> -->
             </div>
         </article>
     </section>
